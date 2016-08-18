@@ -1,0 +1,4791 @@
+{
+  "topology": [
+    {
+      "node": [
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "name": "lax", 
+            "router-id": [
+              "198.19.1.22"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0022"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0022"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.22"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0022", 
+          "geo-topology:geo-node-attributes": {
+            "latitude": 34.0522,
+            "longitude": -118.244          
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.22"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.22"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "202.4.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "44.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "72.24.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "46.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "125.137.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.21/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "42.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "45.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "39.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "47.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "99.99.6.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.6.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "kcy", 
+            "router-id": [
+              "198.19.1.21"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0021"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0021"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.21"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+          "geo-topology:geo-node-attributes": {
+            "latitude": 39.0997,
+            "longitude": -94.5786
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.21"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.21"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.21"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.21"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.21"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.21"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "72.24.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "50.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "112.237.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.31/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "37.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "169.27.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "47.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.16.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "52.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "103.25.16.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "wdc", 
+            "router-id": [
+              "198.19.1.31"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0031"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0031"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.31"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031", 
+          "geo-topology:geo-node-attributes": {
+            "latitude": 38.8951,
+            "longitude": -77.0364
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.31"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.31"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.31"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.31"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "42.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "169.27.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "35.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "45.37.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.20/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "151.151.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "43.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "72.24.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.5.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.5.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "hst", 
+            "router-id": [
+              "198.19.1.20"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0020"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0020"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.20"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 29.7633,
+            "longitude": -95.3633
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.20"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.20"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.20"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "210.18.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "55.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "151.151.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.30/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "53.1.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "56.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "49.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "46.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "99.99.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.15.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.15.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "sjc", 
+            "router-id": [
+              "198.19.1.30"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0030"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0030"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.30"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 36.1372,
+            "longitude": -120.7545
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.30"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.30"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.30"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.30"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "103.25.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "54.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "210.18.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.26/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "53.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "99.99.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.11.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.11.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "por", 
+            "router-id": [
+              "198.19.1.26"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0026"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0026"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.26"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0026", 
+          "geo-topology:geo-node-attributes": {
+            "latitude": 45.5234,
+            "longitude": -122.676
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.26"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.26"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "125.137.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "38.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "41.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "151.151.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.25/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "34.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "52.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "99.99.10.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.10.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "nyc", 
+            "router-id": [
+              "198.19.1.25"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0025"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0025"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.25"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 40.7879,
+            "longitude": -74.0143
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.25"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.25"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.25"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.25"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "151.151.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "40.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "72.24.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "44.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "112.237.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "51.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "53.1.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.9.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.24/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "210.18.9.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "min", 
+            "router-id": [
+              "198.19.1.24"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0024"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0024"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.24"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 44.98,
+            "longitude": -93.2638
+          },
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.24"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.24"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.24"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "53.1.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "36.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "11.11.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "50.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "87.93.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.23/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "13.127.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.8.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.8.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "mia", 
+            "router-id": [
+              "198.19.1.23"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0023"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0023"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.23"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0023",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 25.7743,
+            "longitude": -80.1937
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.23"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.23"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "99.99.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.19/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "40.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "41.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "45.37.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "39.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "112.237.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.4.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "33.0.0.0/24", 
+                "metric": 10
+              }
+            ], 
+            "name": "chi", 
+            "router-id": [
+              "198.19.1.19"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0019"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0019"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.19"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 41.85,
+            "longitude": -87.65
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.19"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.19"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.19"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.19"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "103.25.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "54.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "128.64.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "56.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "112.237.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.29/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "169.27.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.14.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.14.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "sfc", 
+            "router-id": [
+              "198.19.1.29"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0029"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0029"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.29"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0029",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 37.47,
+            "longitude": -122.25
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.29"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.29"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "202.4.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "32.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "210.18.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "38.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "45.37.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.18/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "169.27.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.3.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.3.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "bos", 
+            "router-id": [
+              "198.19.1.18"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0018"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0018"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.18"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0018",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 42.3584,
+            "longitude": -71.0598
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.18"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.18"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "128.64.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "36.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "151.151.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.17/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "11.11.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "35.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "37.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "45.37.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.2.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.2.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "atl", 
+            "router-id": [
+              "198.19.1.17"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0017"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0017"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.17"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 33.7861,
+            "longitude": -84.1959
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.17"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.17"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.17"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "112.237.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "55.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "87.93.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "169.27.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "51.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "13.127.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.28/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "210.18.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.13.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "sea", 
+            "router-id": [
+              "198.19.1.28"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0028"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0028"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.28"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 47.6062,
+            "longitude": -122.332
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.28"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.28"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.28"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "151.151.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "202.4.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "128.64.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "72.24.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "11.11.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "48.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "53.1.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.27/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "87.93.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "125.137.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.12.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "43.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "112.237.12.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "san", 
+            "router-id": [
+              "198.19.1.27"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0027"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0027"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.27"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 32.7153,
+            "longitude": -117.157
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.27"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.27"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.27"
+            }
+          ]
+        }, 
+        {
+          "l3-unicast-igp-topology:igp-node-attributes": {
+            "prefix": [
+              {
+                "prefix": "11.11.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "99.99.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "103.25.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "32.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "128.64.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.18.128.0/18", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "10.11.13.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "45.37.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "112.237.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "198.19.1.16/32", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "72.24.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "13.127.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "210.18.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "151.151.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "202.4.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "169.27.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "34.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "10.16.0.0/16", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "53.1.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "33.0.0.0/24", 
+                "metric": 10
+              }, 
+              {
+                "prefix": "125.137.1.0/24", 
+                "metric": 0
+              }, 
+              {
+                "prefix": "87.93.1.0/24", 
+                "metric": 0
+              }
+            ], 
+            "name": "alb", 
+            "router-id": [
+              "198.19.1.16"
+            ], 
+            "isis-topology:isis-node-attributes": {
+              "iso": {
+                "iso-system-id": "0000.0000.0016"
+              }, 
+              "net": [
+                "72.0000.0000.0000.0000.0000.0016"
+              ], 
+              "ted": {
+                "te-router-id-ipv4": "198.19.1.16"
+              }
+            }
+          }, 
+          "node-id": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016",
+          "geo-topology:geo-node-attributes": {
+            "latitude": 42.6526,
+            "longitude": -73.7562
+          }, 
+          "termination-point": [
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {},
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.16"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.16"
+            }, 
+            {
+              "l3-unicast-igp-topology:igp-termination-point-attributes": {}, 
+              "tp-id": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.16"
+            }
+          ]
+        }
+      ], 
+      "link": [
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0027&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0020&ipv4-iface=43.0.0.27&ipv4-neigh=43.0.0.20", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.20"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.27", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0024&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0028&ipv4-iface=51.0.0.24&ipv4-neigh=51.0.0.28", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.28"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.24", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0024&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0019&ipv4-iface=40.0.0.24&ipv4-neigh=40.0.0.19", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.19"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.24", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0031&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=47.0.0.31&ipv4-neigh=47.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.31", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0024&ipv4-iface=44.0.0.21&ipv4-neigh=44.0.0.24", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.24"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0020&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=42.0.0.20&ipv4-neigh=42.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.20", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0027&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0022&ipv4-iface=48.0.0.27&ipv4-neigh=48.0.0.22", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0022", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.22"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.27", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0019&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0016&ipv4-iface=33.0.0.19&ipv4-neigh=33.0.0.16", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.16"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.19", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0028&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0024&ipv4-iface=51.0.0.28&ipv4-neigh=51.0.0.24", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.24"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=51.0.0.28", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0019&ipv4-iface=39.0.0.21&ipv4-neigh=39.0.0.19", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.19"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0020&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0027&ipv4-iface=43.0.0.20&ipv4-neigh=43.0.0.27", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.27"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=43.0.0.20", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0027&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=45.0.0.27&ipv4-neigh=45.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.27", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0028&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0026&ipv4-iface=53.0.0.28&ipv4-neigh=53.0.0.26", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0026", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.26"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.28", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0030&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0029&ipv4-iface=56.0.0.30&ipv4-neigh=56.0.0.29", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0029", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.29"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.30", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0016&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0019&ipv4-iface=33.0.0.16&ipv4-neigh=33.0.0.19", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.19"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=33.0.0.16", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0020&ipv4-iface=42.0.0.21&ipv4-neigh=42.0.0.20", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.20"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=42.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0030&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0028&ipv4-iface=55.0.0.30&ipv4-neigh=55.0.0.28", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.28"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.30", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0025&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0031&ipv4-iface=52.0.0.25&ipv4-neigh=52.0.0.31", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.31"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.25", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0016&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0018&ipv4-iface=32.0.0.16&ipv4-neigh=32.0.0.18", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0018", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.18"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.16", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0028&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0030&ipv4-iface=55.0.0.28&ipv4-neigh=55.0.0.30", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.30"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=55.0.0.28", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0016&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0025&ipv4-iface=34.0.0.16&ipv4-neigh=34.0.0.25", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.25"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.16", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0025&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0018&ipv4-iface=38.0.0.25&ipv4-neigh=38.0.0.18", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0018", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.18"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.25", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0022&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0030&ipv4-iface=49.0.0.22&ipv4-neigh=49.0.0.30", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.30"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.22", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0022"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0018&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0025&ipv4-iface=38.0.0.18&ipv4-neigh=38.0.0.25", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.25"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=38.0.0.18", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0018"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0024&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=44.0.0.24&ipv4-neigh=44.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=44.0.0.24", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0020&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0017&ipv4-iface=35.0.0.20&ipv4-neigh=35.0.0.17", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.17"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.20", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0031&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0017&ipv4-iface=37.0.0.31&ipv4-neigh=37.0.0.17", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.17"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.31", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0030&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0022&ipv4-iface=49.0.0.30&ipv4-neigh=49.0.0.22", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0022", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.22"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=49.0.0.30", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0026&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0029&ipv4-iface=54.0.0.26&ipv4-neigh=54.0.0.29", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0029", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.29"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.26", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0026"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0025&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0016&ipv4-iface=34.0.0.25&ipv4-neigh=34.0.0.16", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.16"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=34.0.0.25", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0018&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0016&ipv4-iface=32.0.0.18&ipv4-neigh=32.0.0.16", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0016", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.16"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=32.0.0.18", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0018"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0022&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0027&ipv4-iface=48.0.0.22&ipv4-neigh=48.0.0.27", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.27"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=48.0.0.22", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0022"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0019&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=39.0.0.19&ipv4-neigh=39.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=39.0.0.19", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0017&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0020&ipv4-iface=35.0.0.17&ipv4-neigh=35.0.0.20", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0020", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.20"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=35.0.0.17", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0023&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0017&ipv4-iface=36.0.0.23&ipv4-neigh=36.0.0.17", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.17"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.23", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0023"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0023&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0031&ipv4-iface=50.0.0.23&ipv4-neigh=50.0.0.31", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.31"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.23", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0023"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0031&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0025&ipv4-iface=52.0.0.31&ipv4-neigh=52.0.0.25", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.25"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=52.0.0.31", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0019&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0024&ipv4-iface=40.0.0.19&ipv4-neigh=40.0.0.24", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0024", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.24"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=40.0.0.19", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0025&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0019&ipv4-iface=41.0.0.25&ipv4-neigh=41.0.0.19", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.19"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.25", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0030&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0021&ipv4-iface=46.0.0.30&ipv4-neigh=46.0.0.21", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.21"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.30", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0017&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0031&ipv4-iface=37.0.0.17&ipv4-neigh=37.0.0.31", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.31"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=37.0.0.17", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0030&ipv4-iface=46.0.0.21&ipv4-neigh=46.0.0.30", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.30"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=46.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0027&ipv4-iface=45.0.0.21&ipv4-neigh=45.0.0.27", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0027", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.27"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=45.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0017&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0023&ipv4-iface=36.0.0.17&ipv4-neigh=36.0.0.23", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0023", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.23"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=36.0.0.17", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0017"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0031&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0023&ipv4-iface=50.0.0.31&ipv4-neigh=50.0.0.23", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0023", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.23"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=50.0.0.31", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0026&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0028&ipv4-iface=53.0.0.26&ipv4-neigh=53.0.0.28", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0028", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.28"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=53.0.0.26", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0026"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0029&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0030&ipv4-iface=56.0.0.29&ipv4-neigh=56.0.0.30", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0030", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.30"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=56.0.0.29", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0029"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0019&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0025&ipv4-iface=41.0.0.19&ipv4-neigh=41.0.0.25", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0025", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.25"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=41.0.0.19", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0019"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0029&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0026&ipv4-iface=54.0.0.29&ipv4-neigh=54.0.0.26", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0026", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.26"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=54.0.0.29", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0029"
+          }
+        }, 
+        {
+          "link-id": "bgpls://IsisLevel2:0/type=link&local-as=65504&local-domain=3323134238&local-router=0000.0000.0021&remote-as=65504&remote-domain=3323134238&remote-router=0000.0000.0031&ipv4-iface=47.0.0.21&ipv4-neigh=47.0.0.31", 
+          "l3-unicast-igp-topology:igp-link-attributes": {
+            "metric": 10, 
+            "isis-topology:isis-link-attributes": {
+              "ted": {
+                "color": 0, 
+                "max-link-bandwidth": 1250000.0, 
+                "te-default-metric": 10, 
+                "unreserved-bandwidth": [
+                  {
+                    "priority": 6, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 7, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 2, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 3, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 4, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 5, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 0, 
+                    "bandwidth": 1250000.0
+                  }, 
+                  {
+                    "priority": 1, 
+                    "bandwidth": 1250000.0
+                  }
+                ], 
+                "max-resv-link-bandwidth": 1250000.0
+              }
+            }
+          }, 
+          "destination": {
+            "dest-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0031", 
+            "dest-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.31"
+          }, 
+          "source": {
+            "source-tp": "bgpls://IsisLevel2:0/type=tp&ipv4=47.0.0.21", 
+            "source-node": "bgpls://IsisLevel2:0/type=node&as=65504&domain=3323134238&router=0000.0000.0021"
+          }
+        }
+      ], 
+      "topology-id": "example-linkstate-topology", 
+      "topology-types": {}, 
+      "server-provided": true
+    }
+  ]
+}
